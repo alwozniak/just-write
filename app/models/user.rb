@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
     length: { maximum: 255 }, 
     format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/ },
     uniqueness: true
+  validates :password,
+    length: { minimum: 8 }
 
     has_secure_password
 end
