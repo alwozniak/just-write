@@ -54,6 +54,18 @@ h1 {
         color: #fff;
       }
     }
+    .sign-in-link {
+      margin-top: 10px;
+      padding: 6px 15px;
+      text-align: center;
+      a {
+        color: #777;
+        &:hover {
+          text-decoration: none;
+          color: #333;
+        }
+      }
+    }
   }
 }
 
