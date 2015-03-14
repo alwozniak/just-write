@@ -3,8 +3,13 @@
     <title>Home | Just Write!</title>
   </head>
   <body>
-    <h1>Just write!</h1>
-    <%= link_to "Sign up", signup_path %>
-    <%= link_to "Come in", login_path %>
+    <div class="container">
+      <div class="jumbotron center">
+        <h1>Just write!</h1>
+        <p class="lead">Practise every day. Improve your writing. Become an author.</p>
+        <%= link_to "Sign up", signup_path, class: "btn btn-lg btn-primary" %>
+        <%= link_to "Come in", login_path, class: "btn btn-lg btn-success" %>
+      </div>
+    </div>
   </body>
 </html>
