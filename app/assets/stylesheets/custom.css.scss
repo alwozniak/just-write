@@ -26,3 +26,19 @@ h1 {
     color: #fff;
   }
 }
+
+/*
+ * Footer.
+ */
+footer {
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+    }
+  }
+} 
