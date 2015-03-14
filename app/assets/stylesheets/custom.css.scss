@@ -28,6 +28,36 @@ h1 {
 }
 
 /*
+ * Forms.
+ */
+
+.form-panel {
+  width: 500px;
+  margin: 0 auto;
+  h1 {
+    padding-left: 0;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .form-label {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 2px;
+  }
+  .row {
+    margin-bottom: 10px;
+    .btn {
+      margin-top: 10px;
+      background-color: #333;
+      color: #ddd;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+/*
  * Footer.
  */
 footer {
